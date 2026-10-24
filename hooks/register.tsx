@@ -862,6 +862,8 @@ export const register: Register = on => {
       return { text: `Cor do principal: ${nome}.` }
     }
     if (arg === 'demo') {
+      // A demonstração só faz sentido com os bichinhos à vista
+      await update($, isHidden, () => false)
       await iniciarDemo($)
 
       return { text: 'Demonstração por 45 segundos com o principal e 3 subagentes de mentira (sem custo); o primeiro tropeça (4 s), o segundo espera permissão (10 a 18 s), o terceiro termina aos 20 s e some, o primeiro chicoteia outra IA (28 a 38 s) e o principal comemora no fim (45 s). Um pedido novo a encerra.' }
