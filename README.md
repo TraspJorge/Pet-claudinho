@@ -34,13 +34,22 @@ As imagens são animadas e ficam em `docs/estados/`. São geradas por `python3 d
 
 ## Instalação
 
+Requer o [Claude Code](https://claude.com/claude-code) (testado na versão 2.1.310).
+
 ```bash
-git clone https://github.com/TraspJorge/Pet-claudinho.git
-claude plugin marketplace add ./Pet-claudinho
-claude plugin install claudinho@claudinho-local
+claude plugin marketplace add TraspJorge/Pet-claudinho
+claude plugin install claudinho@pet-claudinho
 ```
 
-Abra uma sessão nova do Claude Code depois de instalar.
+Abra uma sessão nova do Claude Code depois de instalar. O mod só desenha o painel acima do prompt e **não lê nem altera**
+seus arquivos.
+
+### Remover
+
+```bash
+claude plugin uninstall claudinho@pet-claudinho
+claude plugin marketplace remove pet-claudinho
+```
 
 ## Comando `/claudinho`
 
