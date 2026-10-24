@@ -30,7 +30,7 @@ Cada agente tem uma destas situações a cada momento.
 | <img src="docs/estados/dormindo.svg" width="160" alt="Dormindo"> | **Dormindo** | Ficou 20 s parado sem fazer nada. Respira devagar, de olhos fechados, com os zzz subindo. |
 | <img src="docs/estados/parado.svg" width="160" alt="Parado"> | **Parado** | Acabou de ficar ocioso, antes de adormecer. De pé, esperando o próximo pedido. |
 
-As imagens ficam em `docs/estados/` e são geradas por `python3 docs/gerar_estados.py`, que reproduz o desenho do `hooks/register.tsx`.
+As imagens são animadas e ficam em `docs/estados/`. São geradas por `python3 docs/gerar_estados.py`, que reproduz os quadros e o ritmo do desenho do `hooks/register.tsx`.
 
 ## Instalação
 
