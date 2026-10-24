@@ -1,0 +1,6 @@
+{
+  "name": "claudinho",
+  "version": "0.5.1",
+  "description": "Mini Claude acima do prompt que representa os agentes: anda, minera, pensa, dorme, tropeça, comemora, contempla o montinho pronto, se despede e chicoteia o robô de outra IA.",
+  "types": "./types/index.d.ts"
+}

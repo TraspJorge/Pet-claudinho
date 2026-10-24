@@ -1,0 +1,7 @@
+{
+  "name": "claudinho-local",
+  "owner": { "name": "jorge" },
+  "plugins": [
+    { "name": "claudinho", "source": "./", "description": "Mini Claude acima do prompt que representa os agentes." }
+  ]
+}
